@@ -21,3 +21,18 @@ Link: https://create-react-app.dev/docs/adding-a-css-modules-stylesheet/
 Link: https://reactjs.org/docs/portals.html
 
 > ReactDOM.createPortal(child, container)
+
+## React Hooks
+
+Link: https://reactjs.org/docs/hooks-reference.html
+
+<p>Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.</p>
+
+<p>THIS PROJECT HAS</p>
+<ul>
+  <li>useState</li>
+  <li>useEffect</li>
+  <li>useContext</li>
+  <li>useReducer</li>
+  <li>useRefs</li>
+</ul>
