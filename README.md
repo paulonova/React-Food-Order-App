@@ -36,3 +36,22 @@ Link: https://reactjs.org/docs/hooks-reference.html
   <li>useReducer</li>
   <li>useRefs</li>
 </ul>
+
+## useContext
+
+> React.createContext();
+
+1- Create a store folder and a file cart-content.js to handle the context
+2- Create an object with two functions that will add or remove the items!
+
+> const CartContext = React.createContext({
+> items: [],
+> totalAmount: 0,
+> addItem: (item) => {},
+> removeItem: (id) => {},
+> });
+
+3- Create a CartProvider.js that will provide the CartContext data to all components in project.
+
+> return <CartContext.Provider>{props.children}</CartContext.Provider>;
+> ps: This is a Provider...
