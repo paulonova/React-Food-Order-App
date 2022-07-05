@@ -55,3 +55,23 @@ Link: https://reactjs.org/docs/hooks-reference.html
 
 > return <CartContext.Provider>{props.children}</CartContext.Provider>;
 > ps: This is a Provider...
+
+## Array.reduce()
+
+link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+
+> Sintax: Array.reduce((accumulator, currentValue)=>{}, 0)
+> Ex:
+
+> const numbers = [1, -1, 2,3];
+> const res = number.reduce((accumulator, currentValue) =>{
+> return accumulator + currentValue;
+> }, 0);
+
+What happens:
+1- accumulator = 0, currentValue = 1 => accumulator = 1
+2- accumulator = 1, currentValue = -1 => accumulator = 0
+3- accumulator = 0, currentValue = 2 => accumulator = 2
+4- accumulator = 2, currentValue = 3 => <strong>accumulator = 5</strong>
+
+result= 5
